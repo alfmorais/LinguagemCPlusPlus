@@ -37,5 +37,16 @@ int main() {
     long long int n4 = 1;
     cout << n1 + n2 + n3 + n4 << endl;
 
+    // check size of datatypes
+    cout << sizeof(char) << " Byte" << endl;
+    cout << sizeof(wchar_t) << " Byte(s)" << endl;
+    cout << sizeof(char16_t) << " Byte(s)" << endl;
+    cout << sizeof(char32_t) << " Byte(s)" << endl;
+    cout << sizeof(int) << " Byte(s)" << endl;
+    cout << sizeof(long int) << " Byte(s)" << endl;
+    cout << sizeof(long long int) << " Byte(s)" << endl;
+    cout << sizeof(float) << " Byte(s)" << endl;
+    cout << sizeof(double) << " Byte(s)" << endl;
+
     return 0;
 }
